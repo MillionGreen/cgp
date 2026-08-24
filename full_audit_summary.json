@@ -1,0 +1,25 @@
+{
+  "engine": "MARKETOS v12.3.3 deterministic replay",
+  "source": "/mnt/data/marketos_truth_20260824_NIFTY.jsonl",
+  "observations_processed": 45322,
+  "observations_skipped": 0,
+  "audit_rows": 90644,
+  "events": 240,
+  "first_event_ts": 1787543324.061,
+  "last_event_ts": 1787566178.954,
+  "runtime_seconds": 758.545,
+  "observations_per_second": 59.75,
+  "audit_csv": "/mnt/data/replay24/full_audit.csv",
+  "event_jsonl": "/mnt/data/replay24/full_events.jsonl",
+  "flow_quality": "PROXY",
+  "path_event_counts": {
+    "LIQUIDITY_DEPLETION": 126,
+    "LIQUIDITY_RELOAD": 98,
+    "LIQUIDITY_DEFENSE": 4,
+    "LIQUIDITY_CLEARANCE": 4,
+    "LIQUIDITY_ACCEPTANCE": 3,
+    "TARGET_REJECTION": 3,
+    "TARGET_CONTINUATION": 1,
+    "PATH_EXHAUSTION": 1
+  }
+}
